@@ -108,9 +108,9 @@
 #  endif
 #endif
 
-#include <Python.h>
-#include <frameobject.h>
-#include <pythread.h>
+#include <python/Python.h>
+#include <python/frameobject.h>
+#include <python/pythread.h>
 
 #if defined(_WIN32) && (defined(min) || defined(max))
 #  error Macro clash with min and max -- define NOMINMAX when compiling your program on Windows
